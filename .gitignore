@@ -1,0 +1,41 @@
+# Environment Variables
+.env
+.env.*
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Testing cache
+.cache/
+.tox/
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+#VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Python package builds
+build/
+dist/
+*.egg-info/
+
+#Logs and outputs
+*.log
+logs/
+output/
+tmp/

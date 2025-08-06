@@ -1,0 +1,12 @@
+[theme]
+base = "dark"
+font = "consolas"
+headingFont = "consolas"
+baseFontSize = 12
+
+primaryColor = "#F25081"
+secondaryBackgroundColor = "#0C1820"
+textColor = "#C8D1DC"
+borderColor = "#8F00FF"
+showWidgetBorder = true
+baseRadius = "0.75rem"
