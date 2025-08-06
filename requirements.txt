@@ -18,3 +18,4 @@ huggingface-hub
 unstructured
 python-pptx
 subprocess 
+sentence-transformers
