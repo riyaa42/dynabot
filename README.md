@@ -4,11 +4,13 @@
 It supports multi-file upload, intelligent chunking, MongoDB Atlas vector search, and a dynamic LLM query flow orchestrated using LangGraph.
 
 ---
+
 Note: Its pretty much complete but some things work a bit roughly so i have to fix that and i want to modify some other things. 
       known issue: 
       -langgraph workflow works smoothly but if initial answer returned is graded as bad and it goes to the start of the retry process it will likely end up
         returning the default message asking you to input a better prompt eventually after going through the proceducers of rewriting prompt + retrieving more
         chunks. technically everything works as it should though so ill fix it later might need to change some parameters + a minor issue in logic 
+        
 ---
 
 ## Features
