@@ -64,30 +64,30 @@ Note: Its pretty much complete but some things work a bit roughly so i have to f
 
 IMPORTANT!!!!!!⚠️
 
-  {
-    1. LibreOffice should be installed in the system as streamlit ui doesnt support pptx files for viewing and i had to convert it to pdf for viewing purposes
+  
+##1. LibreOffice should be installed in the system as streamlit ui doesnt support pptx files for viewing and i had to convert it to pdf for viewing purposes
       (program still processes .pptx files normally for rag processes it just converts for ui)
-'''
-      macOS
+
+ macOS
       
       '''
       brew install --cask libreoffice  
       '''
-'''
-      windows
+
+windows
 
       '''
        https://www.libreoffice.org/download/
        '''
        
-'''      
-    2. path to soffice is hardcoded in data_processing.py in function "def convert_pptx_to_pdf" as the default soffice path in MacOS. if different path or 
+      
+##2. path to soffice is hardcoded in data_processing.py in function "def convert_pptx_to_pdf" as the default soffice path in MacOS. if different path or 
           if on :
                windows ( C:\\Program Files\\LibreOffice\\program\\soffice.exe), 
                linux (soffice) 
           please edit path to aforementioned before running.
           will update for ease of access in future.
-     }
+     
 
 ##1. Clone the repository
 ```
