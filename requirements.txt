@@ -17,3 +17,4 @@ pandas
 huggingface-hub
 unstructured
 python-pptx
+subprocess 
