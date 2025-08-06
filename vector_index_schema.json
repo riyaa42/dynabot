@@ -1,0 +1,15 @@
+{
+  "fields": [
+    {
+      "numDimensions": 384,
+      "path": "vector_embedding",
+      "quantization": "none",
+      "similarity": "cosine",
+      "type": "vector"
+    },
+    {
+      "path": "file_name",
+      "type": "filter"
+    }
+  ]
+}
